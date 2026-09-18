@@ -1,0 +1,29 @@
+{
+  "name": "Big Walk Clock",
+  "author": "Minalor",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Big Walk Clock",
+    "uuid": "12471cb1-caf2-4925-a63c-f27e9eb9cf5f",
+    "projectType": "moddable",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+
+	  ]
+    }
+  }
+}

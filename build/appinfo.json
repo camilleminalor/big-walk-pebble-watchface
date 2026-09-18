@@ -1,0 +1,28 @@
+{
+    "displayName": "Big Walk Clock",
+    "uuid": "12471cb1-caf2-4925-a63c-f27e9eb9cf5f",
+    "projectType": "moddable",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+        "gabbro"
+    ],
+    "watchapp": {
+        "watchface": true
+    },
+    "messageKeys": {
+        "dummy": 10000
+    },
+    "resources": {
+        "media": []
+    },
+    "name": "Big Walk Clock",
+    "shortName": "Big Walk Clock",
+    "longName": "Big Walk Clock",
+    "versionLabel": "1.0.0",
+    "companyName": "Minalor",
+    "appKeys": {
+        "dummy": 10000
+    },
+    "capabilities": []
+}

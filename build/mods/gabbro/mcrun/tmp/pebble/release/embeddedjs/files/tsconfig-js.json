@@ -1,0 +1,493 @@
+{
+	"compilerOptions": {
+		"rootDir": "/mnt/c/Users/Camille/Desktop/Pebble/UPLOADED/big_walk/src/embeddedjs",
+		"forceConsistentCasingInFileNames": true,
+		"module": "preserve",
+		"resolveJsonModule": true,
+		"outDir": "/mnt/c/Users/Camille/Desktop/Pebble/UPLOADED/big_walk/build/mods/gabbro/mcrun/tmp/pebble/release/embeddedjs/files",
+		"paths": {
+			"ChatAudioIO": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/ChatAudioIO"
+			],
+			"Resource": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/Resource"
+			],
+			"base64": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/base64"
+			],
+			"console": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/console"
+			],
+			"crc": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/crc"
+			],
+			"crypt": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/crypt"
+			],
+			"debug": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/debug"
+			],
+			"deepEqual": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/deepEqual"
+			],
+			"deflate": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/deflate"
+			],
+			"display": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/display"
+			],
+			"dns": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/dns"
+			],
+			"easing": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/easing"
+			],
+			"file": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/file"
+			],
+			"flash": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/flash"
+			],
+			"global": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/global"
+			],
+			"hex": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/hex"
+			],
+			"http": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/http"
+			],
+			"inflate": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/inflate"
+			],
+			"instrumentation": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/instrumentation"
+			],
+			"mcpack": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/mcpack"
+			],
+			"mdns": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/mdns"
+			],
+			"modules": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/modules"
+			],
+			"neopixel": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/neopixel"
+			],
+			"neostrand": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/neostrand"
+			],
+			"net": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/net"
+			],
+			"ping": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/ping"
+			],
+			"preference": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/preference"
+			],
+			"qrcode": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/qrcode"
+			],
+			"securesocket": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/securesocket"
+			],
+			"sntp": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/sntp"
+			],
+			"socket": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/socket"
+			],
+			"telnet": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/telnet"
+			],
+			"time": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/time"
+			],
+			"timer": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/timer"
+			],
+			"uuid": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/uuid"
+			],
+			"websocket": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/websocket"
+			],
+			"wifi": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/wifi"
+			],
+			"zip": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/zip"
+			],
+			"bleclient": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/ble/bleclient"
+			],
+			"bleserver": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/ble/bleserver"
+			],
+			"btutils": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/ble/btutils"
+			],
+			"connection": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/ble/connection"
+			],
+			"gap": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/ble/gap"
+			],
+			"gatt": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/ble/gatt"
+			],
+			"hidclient": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/ble/hidclient"
+			],
+			"index": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/ble/index"
+			],
+			"sm": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/ble/sm"
+			],
+			"commodetto/Bitmap": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/Bitmap"
+			],
+			"commodetto/BufferOut": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/BufferOut"
+			],
+			"commodetto/Convert": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/Convert"
+			],
+			"commodetto/PixelsOut": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/PixelsOut"
+			],
+			"commodetto/Poco": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/Poco"
+			],
+			"commodetto/ReadGIF": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/ReadGIF"
+			],
+			"commodetto/ReadPNG": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/ReadPNG"
+			],
+			"commodetto/index": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/index"
+			],
+			"commodetto/loadJPEG": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/loadJPEG"
+			],
+			"commodetto/outline": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/outline"
+			],
+			"commodetto/parseBMF": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/parseBMF"
+			],
+			"commodetto/parseBMP": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/parseBMP"
+			],
+			"commodetto/parseNFNT": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/parseNFNT"
+			],
+			"commodetto/parseRLE": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/parseRLE"
+			],
+			"commodetto/readJPEG": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/readJPEG"
+			],
+			"commodetto/readStream": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/commodetto/readStream"
+			],
+			"dns/index": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/dns/index"
+			],
+			"dns/parser": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/dns/parser"
+			],
+			"dns/serializer": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/dns/serializer"
+			],
+			"dns/server": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/dns/server"
+			],
+			"mc/config": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/mc/config"
+			],
+			"mc/ffi": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/mc/ffi"
+			],
+			"mc/index": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/mc/index"
+			],
+			"mod/config": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/mod/config"
+			],
+			"mod/index": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/mod/index"
+			],
+			"pins/analog": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pins/analog"
+			],
+			"pins/audioin": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pins/audioin"
+			],
+			"pins/audioout": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pins/audioout"
+			],
+			"pins/digital": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pins/digital"
+			],
+			"pins/i2c": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pins/i2c"
+			],
+			"pins/index": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pins/index"
+			],
+			"pins/pwm": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pins/pwm"
+			],
+			"pins/rmt": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pins/rmt"
+			],
+			"pins/servo": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pins/servo"
+			],
+			"pins/smbus": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pins/smbus"
+			],
+			"piu/CombTransition": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/piu/CombTransition"
+			],
+			"piu/ImageBuffer": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/piu/ImageBuffer"
+			],
+			"piu/MC-types": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/piu/MC-types"
+			],
+			"piu/MC": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/piu/MC"
+			],
+			"piu/QRCode": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/piu/QRCode"
+			],
+			"piu/Sound": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/piu/Sound"
+			],
+			"piu/Timeline": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/piu/Timeline"
+			],
+			"piu/WipeTransition": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/piu/WipeTransition"
+			],
+			"piu/index": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/piu/index"
+			],
+			"piu/shape": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/piu/shape"
+			],
+			"text/decoder": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/text/decoder"
+			],
+			"text/encoder": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/text/encoder"
+			],
+			"text/index": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/text/index"
+			],
+			"embedded:io/_common": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/_common"
+			],
+			"embedded:io/analog": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/analog"
+			],
+			"embedded:io/digital": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/digital"
+			],
+			"embedded:io/digitalbank": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/digitalbank"
+			],
+			"embedded:io/i2c": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/i2c"
+			],
+			"embedded:io/index": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/index"
+			],
+			"embedded:io/pulsecount": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/pulsecount"
+			],
+			"embedded:io/pwm": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/pwm"
+			],
+			"embedded:io/serial": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/serial"
+			],
+			"embedded:io/smbus": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/smbus"
+			],
+			"embedded:io/spi": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/spi"
+			],
+			"embedded:io/system": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/system"
+			],
+			"embedded:io/audio/in": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/audio/in"
+			],
+			"embedded:io/audio/out": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/audio/out"
+			],
+			"embedded:io/bluetoothle/_common": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/ble/_common"
+			],
+			"embedded:io/bluetoothle/central": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/ble/central"
+			],
+			"embedded:io/bluetoothle/peripheral": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/ble/peripheral"
+			],
+			"embedded:io/crypt/digest": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/crypt/digest"
+			],
+			"embedded:io/socket/listener": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/socket/listener"
+			],
+			"embedded:io/socket/tcp": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/socket/tcp"
+			],
+			"embedded:io/socket/udp": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_io/socket/udp"
+			],
+			"embedded:network/http/client": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_network/http/client"
+			],
+			"embedded:network/http/server": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_network/http/server"
+			],
+			"embedded:network/mqtt/client": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_network/mqtt/client"
+			],
+			"embedded:network/websocket/client": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_network/websocket/client"
+			],
+			"embedded:network/dns/resolver/udp": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_network/dns/resolver/udp"
+			],
+			"embedded:network/interface/ethernet": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_network/interface/ethernet"
+			],
+			"embedded:network/interface/wifi": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_network/interface/wifi"
+			],
+			"embedded:network/ntp/client": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_network/ntp/client"
+			],
+			"embedded:network/dnssd": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_network/dnssd"
+			],
+			"embedded:network/mdns": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded_network/mdns"
+			],
+			"embedded:RTC": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded/RTC"
+			],
+			"embedded:display": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded/display"
+			],
+			"embedded:update": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded/update"
+			],
+			"embedded:storage/files": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded/storage/files"
+			],
+			"embedded:storage/flash": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded/storage/flash"
+			],
+			"embedded:storage/key-value": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/embedded/storage/key-value"
+			],
+			"mqtt/js": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/mqtt/js"
+			],
+			"headers": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/web/headers"
+			],
+			"fetch": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/web/fetch"
+			],
+			"structuredClone": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/web/structuredClone"
+			],
+			"url": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/web/url"
+			],
+			"webstorage": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/web/webstorage"
+			],
+			"web/eventsource": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/web/eventsource"
+			],
+			"web/websocket": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/web/websocket"
+			],
+			"worker": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/web/worker"
+			],
+			"embedded:sensor/Accelerometer": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pebble/accelerometer"
+			],
+			"embedded:sensor/Battery": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pebble/battery"
+			],
+			"embedded:sensor/Compass": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pebble/compass"
+			],
+			"embedded:sensor/Location": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pebble/location"
+			],
+			"embedded:provider/builtin": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pebble/device"
+			],
+			"pebble/button": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pebble/button"
+			],
+			"pebble/dictation": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pebble/dictation"
+			],
+			"pebble/health": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pebble/health"
+			],
+			"pebble/message": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pebble/message"
+			],
+			"pebble/vibes": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pebble/vibes"
+			],
+			"pebble/wakeup": [
+				"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pebble/wakeup"
+			]
+		},
+		"lib": [
+			"es2025",
+			"esnext.disposable"
+		],
+		"sourceMap": true,
+		"target": "es2025",
+		"allowJs": true,
+		"checkJs": true,
+		"noEmit": true,
+		"strict": true,
+		"noImplicitAny": false,
+		"noImplicitThis": false,
+		"strictNullChecks": false,
+		"types": [
+			"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pebble/global",
+			"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pebble/piu",
+			"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/pebble/poco",
+			"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/easing",
+			"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/piu/MC",
+			"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/piu/MC-types",
+			"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/xs/includes/xs",
+			"/root/.local/share/pebble-sdk/SDKs/4.33.1/toolchain/moddable/typings/global"
+		]
+	},
+	"files": [
+		"/mnt/c/Users/Camille/Desktop/Pebble/UPLOADED/big_walk/src/embeddedjs/main.js"
+	]
+}

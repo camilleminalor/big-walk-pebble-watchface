@@ -7,4 +7,4 @@ The red hand is a classic second hand, and the black one takes 7.5 minutes to ma
 There is no point to this watchface other than being silly.
 
 
-https://static0.thegamerimages.com/wordpress/wp-content/uploads/2026/08/the-train-time-table-in-big-walk-1.jpg?q=49&fit=crop&w=825&dpr=2
+![Screenshot showing the in-game clock](https://static0.thegamerimages.com/wordpress/wp-content/uploads/2026/08/the-train-time-table-in-big-walk-1.jpg?q=49&fit=crop&w=825&dpr=2)

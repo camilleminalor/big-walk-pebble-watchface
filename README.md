@@ -5,8 +5,8 @@
 
 Inspired by the train station clock found in Big Walk. Both hands move at the same speed as they do in the game.  
 The red hand is a classic second hand, and the black one takes 7.5 minutes to make a full turn.  
-There is no point to this watchface other than being **silly**.  
-
+There is no point to this watchface other than being **silly**.   
+AI usage: almost none, only in the context of debugging.
 
 
 ![Screenshot showing the in-game clock](https://static0.thegamerimages.com/wordpress/wp-content/uploads/2026/08/the-train-time-table-in-big-walk-1.jpg?q=49&fit=crop&w=825&dpr=2)
